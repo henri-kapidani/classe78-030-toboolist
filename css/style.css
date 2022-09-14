@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* uguale ad html (elemento root)
+:root {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+} */
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+body {
+	background-color: #AAAAAA;
+}
+
+.header-site {
+	padding: 13px 23px;
+	background-color: #FFFFFF;
+}
+
+.img-logo {
+	vertical-align: middle;
+}
+
+.title-site {
+	display: inline;
+	vertical-align: middle;
+	font-size: 2rem;
+}
+
+main {
+	max-width: 900px;
+	margin: 40px auto 10px;
+	background-color: #FFFFFF;
+	border-radius: 12px;
+}
+
+.header-main {
+	padding: 20px 40px 10px;
+	border-bottom: 3px solid #AAAAAA;
+}
+
+.list-main {
+	padding: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+.arrow-down {
+	vertical-align: middle;
+}
+
+.title-section {
+	display: inline;
+	vertical-align: middle;
+}
+
+.check-green {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	border: 1px solid green;
+	border-radius: 10em;
+	color: green;
+	font-size: .5rem;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+.todo-part {
+	vertical-align: middle;
+}
+
+.tag {
+	display: inline-block;
+	padding: .5em;
+	border-radius: 0.8em;
+}
+
+.tag-blue {
+	background-color: aqua;
+	border: 6px solid aqua;
+}
+
+.tag-border {
+	border: 6px solid black;
+}
